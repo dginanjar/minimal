@@ -105,9 +105,13 @@ img {
 }
 
 header {
+  text-align: center;
+  background-color: #fff;
   width:270px;
   float:left;
   position:fixed;
+  bottom: auto;
+  z-index: 9;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -189,6 +193,7 @@ hr {
 }
 
 footer {
+  text-align: center;
   width:270px;
   float:left;
   position:fixed;
